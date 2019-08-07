@@ -1,0 +1,227 @@
+// 头部导航
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height:45px ;
+    line-height: 45px;
+    padding:0 10px;
+    position: relative;
+    a{
+        font-size: 16px;
+        color: #d3079e;
+        span{
+            width: 0;
+            height: 0;
+            border-top:8px solid #d3079e;
+            border-bottom:8px solid #f1f1f1;
+            border-left:8px solid #f1f1f1;
+            border-right:8px solid #f1f1f1;
+            position: absolute;
+            top:50%;
+        }
+    }
+    img{
+        height: 30px;
+        margin-top:10px;
+    }
+
+}
+
+// 大图广告区域
+.banner{
+    width: 100%;
+    display: flex;
+    position: relative;
+    img{
+        width: 100%;
+        flex: 1;
+    }
+    ul{
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        li{
+            float: left;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #fff;
+            margin-left: 15px;
+        }
+    }
+}
+
+// 旅游选择
+.travel{
+    display: flex;
+    margin-top:20px;
+       .one{
+           flex:1;
+           display: flex;
+           margin-right: 10px;
+           img{
+               width: 100%;
+               flex: 1;   
+           }
+       }
+}
+
+// 旅游类型
+.type{
+    display: flex;
+    margin-top:25px;
+    .type_1{
+        flex: 1;
+        display: flex;
+        border-top:1px solid #ccc;
+        border-right:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+        img{
+           width: 100%;
+           flex: 1;
+        }
+    }
+}
+.lx{
+    display: flex;
+    .type_1{
+        flex: 1;
+        display: flex;
+        border-top:1px solid #ccc;
+        border-right:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+        img{
+           width: 100%;
+           flex: 1;
+        }
+    }
+}
+
+
+// 小图广告区域
+.photo{
+    display: flex;
+    margin-top:20px;
+    .l_box{
+        flex: 1;
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        img{
+            width: 100%;
+            flex: 1;
+        }
+    }
+    .r_box{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        .top_b{
+            flex: 1;
+            display: flex;
+            border-bottom: 1px solid #ccc;
+            img{
+                width: 100%;
+                flex: 1;
+            }
+        }
+        .bot_b{
+            flex: 1;
+            display: flex;
+            border-bottom: 1px solid #ccc;
+            img{
+                width: 100%;
+                flex: 1;
+            }
+        }
+    }
+}
+
+
+// 热门活动
+.hot{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top:15px;
+    padding-left:10px;
+    box-sizing: border-box;
+    p{
+        font-size: 20px;
+    }
+
+}
+
+.acticity{
+    // display: flex; 
+    // flex-direction: column; 
+    content{
+        width: 100%;
+        // flex: 1;
+        // display: flex;        
+        img{                    
+            // flex: 1;
+            width: 100%;
+        }
+    }
+}
+
+// 度周末
+.bq{
+    width: 100%;
+    font-size:20px;
+    height: 50px;
+    line-height: 50px;
+    a{
+        display: block;
+    }
+    a:first-child{
+        float: left; 
+        padding-left: 20%;    
+    }
+    a:last-child{
+        float: right;
+        padding-right:20%;
+    }
+    a:hover{
+        color: #d3079e;
+        border-bottom: 4px solid #d3079e;
+    }
+}
+.weekend{
+    width: 100%;
+    .picture{
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+// 查看更多
+.more{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+// 免费注册
+.fire{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top:40px;
+    background-color: #d3079e;
+    a:nth-chlid(1){
+        float: left;
+    }
+    a:nth-chlid(2){
+        float: left;
+    }
+    a:last-child{
+        float: right;;
+    }
+}
